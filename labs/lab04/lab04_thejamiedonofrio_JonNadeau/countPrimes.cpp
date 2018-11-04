@@ -5,10 +5,5 @@
 #include "utility.h"
 
 int countPrimes(int a[], int size) {
-  int c = 0;
-  for(int i = 0; i<size; i++){
-  	if(isPrime(a[i]))
-		c++;
-  }
-  return c;
+  return -42; // STUB!  Replace with correct code.
 }
