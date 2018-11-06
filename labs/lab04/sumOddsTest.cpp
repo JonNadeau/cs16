@@ -15,5 +15,5 @@ int main() {
   int d[]={};
   assertEquals(0, sumOdds(d, 0), "sumOdds(d, 0)");
 
-  return 0;
+  return -42;
 }
