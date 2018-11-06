@@ -21,13 +21,13 @@ int main() {
 
   int meaning[] = {42};
   assertEquals(42,
-	       minOfArray(meaning,1), 
-	       "minOfArray(meaning,1)" ); 
+	       maxOfArray(meaning,1), 
+	       "maxOfArray(meaning,1)" ); 
 
   int mix[10]={-42,12,-9,56,123,-32767,48}; // last three will be zero
   assertEquals(123,
-	       minOfArray(mix,10), 
-	       "minOfArray(mix,10)" );
+	       maxOfArray(mix,10), 
+	       "maxOfArray(mix,10)" );
 
   return -42;
 }

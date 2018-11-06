@@ -39,5 +39,5 @@ int main() {
 	       countEvens(mix,10), 
 	       "countEvens(mix,10)" );
 
-  return 0;
+  return -42;
 }
